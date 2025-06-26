@@ -23,7 +23,7 @@ public class SpringController {
 //		Integer sec = date.getSecond();
 		val++;
 //		Integer count = year + month + day + hour + min + sec + 1;
-		String result = "Mr. chutiyaDevOps" + val;
+		String result = "Dilip DevOps" + val;
 		return result;
 	}
 }
