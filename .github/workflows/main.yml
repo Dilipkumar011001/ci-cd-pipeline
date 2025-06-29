@@ -38,7 +38,7 @@ jobs:
       run: |
         VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)
         curl -v -u $NEXUS_USERNAME:$NEXUS_PASSWORD --upload-file target/Uber.jar \
-          http://13.201.34.81:8081/repository/dilip/com/example/springboot/$VERSION/springboot-$VERSION.jar
+          http://65.2.140.172:8081/repository/dilip/com/example/springboot/$VERSION/springboot-$VERSION.jar
 
     - name: Build Docker Image
       run: |
